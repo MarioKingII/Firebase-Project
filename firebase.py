@@ -11,7 +11,7 @@ authization = firebase.auth()
 #This is the key!
 cred = credentials.Certificate("serviceAccountKey.json")
 
-firebase_admin.initialize_app(cred, {'storageBucket':                                              'https://address-book-b7b33-default-rtdb.firebaseio.com/'})# Allows the user to store information using storage bucket
+firebase_admin.initialize_app(cred, {'storageBucket': """------>>> INSERT HERE <<<--------"""})
 
 db = firestore.client() 
 
